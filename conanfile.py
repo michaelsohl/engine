@@ -3,7 +3,7 @@ from conan.tools.cmake import CMakeToolchain, CMake, cmake_layout, CMakeDeps
 
 
 class engineRecipe(ConanFile):
-    name = "engine"
+    name = "engine_den"
     version = "2.0"
     package_type = "library"
 
@@ -49,7 +49,7 @@ class engineRecipe(ConanFile):
         cmake.install()
 
     def package_info(self):
-        self.cpp_info.libs = ["engine"]
+        self.cpp_info.libs = ["engine_den"]
 
     
 
