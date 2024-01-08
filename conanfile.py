@@ -2,7 +2,7 @@ from conan import ConanFile
 from conan.tools.cmake import CMakeToolchain, CMake, cmake_layout, CMakeDeps
 
 
-class engine_finRecipe(ConanFile):
+class engine_Recipe(ConanFile):
     name = "engine_fin"
     version = "2.0"
     package_type = "library"
