@@ -49,7 +49,7 @@ class engine_finRecipe(ConanFile):
         cmake.install()
 
     def package_info(self):
-        self.cpp_info.libs = ["engine_fin"]
+        self.cpp_info.libs = ["engine"]
 
     
 
